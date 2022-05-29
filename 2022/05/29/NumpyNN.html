@@ -143,6 +143,13 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/nuttnice187/buildings/blob/master/_notebooks/2022-05-29-NumpyNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Given">Given<a class="anchor-link" href="#Given"> </a></h2><p>MNIST is an opensource dataset that contains 70,000 28 X 28 pixel sized images of hand written numbers and an accurate label for their 10 possible categorical labels of digits 0 thru 9.  Each of the 784 image-pixels can be represented as a decimal between 0 and 1, where 0 would represent a blank portion of the written image and 1 would be fully saturated in writing.  Therefore, each of the labeled images can be reresented as a set of 784 elements ranging between 0 and 1.</p>
 <p>Let's import some libraries.</p>
 <ol>
@@ -204,17 +211,20 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+$$
 \begin{align}
     f_{NeuralNetwork}(\begin{bmatrix}
-           a_{0} \\
-           \vdots \\
-           a_{783}
-         \end{bmatrix}) &amp;= \begin{bmatrix}
-           y_{0} \\
-           \vdots \\
-           y_{9}
-         \end{bmatrix}
-  \end{align}
+      a_{0} \\
+      \vdots \\
+      a_{783}
+    \end{bmatrix}) &amp;=
+    \begin{bmatrix}
+      y_{0} \\
+      \vdots \\
+      y_{9}
+    \end{bmatrix}
+\end{align}\
+$$
 </div>
 </div>
 </div>
