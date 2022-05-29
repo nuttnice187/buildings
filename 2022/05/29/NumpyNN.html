@@ -143,13 +143,6 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/github/nuttnice187/buildings/blob/master/_notebooks/2022-05-29-NumpyNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Given">Given<a class="anchor-link" href="#Given"> </a></h2><p>MNIST is an opensource dataset that contains 70,000 28 X 28 pixel sized images of hand written numbers and an accurate label for their 10 possible categorical labels of digits 0 thru 9.  Each of the 784 image-pixels can be represented as a decimal between 0 and 1, where 0 would represent a blank portion of the written image and 1 would be fully saturated in writing.  Therefore, each of the labeled images can be reresented as a set of 784 elements ranging between 0 and 1.</p>
 <p>Let's import some libraries.</p>
 <ol>
@@ -231,7 +224,7 @@ $$
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>How do we predict our most likely number label given 784 inputs?  We need to have some layers of neurons between the inputs and prediction layer.  Let's start with two.  Our first hidden layer will have a width of 128 neuron nodes and the subsequent layer we'll have 64 neurons. Below illustrates how these neurons will interact.</p>
-<h4 id="Activation-Functions">Activation Functions<a class="anchor-link" href="#Activation-Functions"> </a></h4>
+<h3 id="Activation-Functions">Activation Functions<a class="anchor-link" href="#Activation-Functions"> </a></h3>
 </div>
 </div>
 </div>
@@ -252,13 +245,13 @@ $$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Matrix-Aggregate-Computation">Matrix Aggregate Computation<a class="anchor-link" href="#Matrix-Aggregate-Computation"> </a></h4>
+<h3 id="Matrix-Aggregate-Computation">Matrix Aggregate Computation<a class="anchor-link" href="#Matrix-Aggregate-Computation"> </a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="Hidden-Layer-1">Hidden Layer 1<a class="anchor-link" href="#Hidden-Layer-1"> </a></h5>
+<h4 id="Hidden-Layer-1">Hidden Layer 1<a class="anchor-link" href="#Hidden-Layer-1"> </a></h4>
 </div>
 </div>
 </div>
@@ -290,7 +283,7 @@ $$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="Hidden-Layer-2">Hidden Layer 2<a class="anchor-link" href="#Hidden-Layer-2"> </a></h5>
+<h4 id="Hidden-Layer-2">Hidden Layer 2<a class="anchor-link" href="#Hidden-Layer-2"> </a></h4>
 </div>
 </div>
 </div>
@@ -323,7 +316,7 @@ $$
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="Output-Layer">Output Layer<a class="anchor-link" href="#Output-Layer"> </a></h5>
+<h4 id="Output-Layer">Output Layer<a class="anchor-link" href="#Output-Layer"> </a></h4>
 </div>
 </div>
 </div>
